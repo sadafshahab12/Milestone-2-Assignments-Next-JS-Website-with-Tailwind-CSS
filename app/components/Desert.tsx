@@ -1,8 +1,6 @@
 import React from "react";
 import DessertCard from "./ui/DessertCard";
 
-
-
 const Desert = () => {
   return (
     <>

@@ -5,7 +5,6 @@ import BlackBtn from "./ui/BlackBtn";
 const Contactus = () => {
   return (
     <>
-
       <section className="bg-orange-400 md:p-14 sm:p-7 p-3">
         <div className=" grid sm:grid-cols-2 grid-cols-1 sm:gap-10 gap-5 ">
           <div className="contact space-y-10 ">

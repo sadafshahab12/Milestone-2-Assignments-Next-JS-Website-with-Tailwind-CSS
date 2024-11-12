@@ -3,13 +3,12 @@ import Image from "next/image";
 import BlackBtn from "@/app/components/ui/BlackBtn";
 
 interface TDessertCard {
-    img : string,
-    name : string,
-    description : string,
-    price : string,
-
+  img: string;
+  name: string;
+  description: string;
+  price: string;
 }
-const DessertCard = ({img , name, description, price} : TDessertCard) => {
+const DessertCard = ({ img, name, description, price }: TDessertCard) => {
   return (
     <>
       <div className="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-2 bg-gradient-to-t from-orange-400 to-slate-200 shadow-lg p-5 items-center rounded">

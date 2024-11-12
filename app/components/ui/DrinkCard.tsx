@@ -3,16 +3,15 @@ import Image from "next/image";
 import BlackBtn from "@/app/components/ui/BlackBtn";
 
 interface TDrinkCard {
-    img : string,
-    name : string,
-    description : string,
-    price : string,
-
+  img: string;
+  name: string;
+  description: string;
+  price: string;
 }
-const DrinkCard = ({img , name, description, price} : TDrinkCard) => {
+const DrinkCard = ({ img, name, description, price }: TDrinkCard) => {
   return (
     <>
-          <div className="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-2 bg-gradient-to-t from-orange-400 to-slate-200 shadow-lg p-5 items-center rounded">
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-2 bg-gradient-to-t from-orange-400 to-slate-200 shadow-lg p-5 items-center rounded">
         <div className="content sm:space-y-6 space-y-3 overflow-hidden ">
           <h1 className="md:text-[1.5rem] text-[1.3rem] font-bold">{name}</h1>
           <p className="text-[1rem] tracking-wide">{description}</p>

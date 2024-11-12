@@ -2,7 +2,6 @@
 import FAQTag from "./ui/FAQTag";
 
 const FAQ = () => {
-
   return (
     <>
       <section>

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Button from "@/app/components/ui/Button";
 import ButtonNoBg from "@/app/components/ui/ButtonNoBg";
@@ -12,7 +12,7 @@ const Hero = () => {
       <section className="lg:p-10 sm:p-5 p-3">
         <div className=" flex-col md:flex-row flex justify-center items-center ">
           <div className="left md:space-y-14 space-y-7 lg:p-10 sm:p-5 xs:p-2 p-0 md:w-[50%] w-full md:text-left text-center">
-            <div >
+            <div>
               <h1 className="font-extrabold lg:text-[4rem]  md:text-[2.5rem] xs:text-[3.5rem] text-[2rem]">
                 Savor the <span className="text-primary">Flavor</span>
               </h1>
@@ -36,18 +36,15 @@ const Hero = () => {
                   alt="burger"
                   width={700}
                   height={500}
-             className="rounded-lg"
+                  className="rounded-lg"
                 />
               </div>
             </div>
             <div className="btns flex xs:flex-row flex-col items-center gap-3">
-              <div onClick={()=> route.push("/orderonline")}>
-
-              <Button btnText="Order Now" />
-            </div>
-              <ButtonNoBg  
-                NoBgbtnText="Make a Reservation"
-              />
+              <div onClick={() => route.push("/orderonline")}>
+                <Button btnText="Order Now" />
+              </div>
+              <ButtonNoBg NoBgbtnText="Make a Reservation" />
             </div>
           </div>
           <div className="right md:w-[50%] w-full hidden md:flex justify-center items-center">

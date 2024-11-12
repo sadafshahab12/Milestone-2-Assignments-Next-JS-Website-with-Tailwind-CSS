@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/Navbar";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
-  weight: ["400" , "700"],
+  weight: ["400", "700"],
   style: ["normal"],
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Taste Bite | Sadaf Shahab",
-
 };
 
 export default function RootLayout({

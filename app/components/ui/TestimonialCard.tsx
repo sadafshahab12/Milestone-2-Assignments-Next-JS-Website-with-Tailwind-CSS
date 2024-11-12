@@ -24,8 +24,12 @@ const TestimonialCard = ({
           />
         </div>
         <div className="pt-5 text-center space-y-3">
-          <h2 className="xs:text-[1.4rem] text-[1.1rem] font-bold text-primary">{clientName}</h2>
-          <p className="xs:text-[1.1rem] text-[0.9rem]  text-white">{clientQuote}</p>
+          <h2 className="xs:text-[1.4rem] text-[1.1rem] font-bold text-primary">
+            {clientName}
+          </h2>
+          <p className="xs:text-[1.1rem] text-[0.9rem]  text-white">
+            {clientQuote}
+          </p>
         </div>
       </div>
     </>

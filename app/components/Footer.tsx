@@ -54,7 +54,10 @@ const Footer = () => {
                 <Link href="/" className="xs:text-[1.5rem] text-[1.2rem]">
                   <FontAwesomeIcon icon={faFacebook} width={20} height={20} />
                 </Link>
-                <Link href="https://www.instagram.com/sadafshahab12/" className="xs:text-[1.5rem] text-[1.2rem]">
+                <Link
+                  href="https://www.instagram.com/sadafshahab12/"
+                  className="xs:text-[1.5rem] text-[1.2rem]"
+                >
                   <FontAwesomeIcon icon={faInstagram} width={20} height={20} />
                 </Link>
                 <Link href="/" className="xs:text-[1.5rem] text-[1.2rem]">
@@ -77,11 +80,11 @@ const Footer = () => {
               />
             </div>
             <div className="copyright">
-              <p >
+              <p>
                 <FontAwesomeIcon icon={faCopyright} width={20} height={20} />{" "}
                 2024 TasteBite. All rights reserved.
               </p>
-              <p >Terms & Conditions | Privacy Policy</p>
+              <p>Terms & Conditions | Privacy Policy</p>
             </div>
           </div>
           {/* -------------------------- */}

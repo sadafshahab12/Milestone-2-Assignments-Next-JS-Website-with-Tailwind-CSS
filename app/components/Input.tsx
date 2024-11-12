@@ -1,10 +1,9 @@
 import React from "react";
 
 interface TInput {
-placeHolder : string,
-
+  placeHolder: string;
 }
-const Input = ( {placeHolder}: TInput) => {
+const Input = ({ placeHolder }: TInput) => {
   return (
     <>
       <input

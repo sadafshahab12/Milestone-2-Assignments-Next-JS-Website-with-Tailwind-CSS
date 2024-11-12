@@ -2,13 +2,12 @@ import React from "react";
 
 import VegeCard from "@/app/components/ui/VegeCard";
 
-
 const Vegetarian = () => {
   return (
     <>
       <div className="space-y-4">
         <div>
-          <h1 className="text-[2rem] text-center font-bold" >Vegetarian</h1>
+          <h1 className="text-[2rem] text-center font-bold">Vegetarian</h1>
         </div>
         <div className="apetizer-card grid sm:grid-cols-2 grid-cols-1 gap-5">
           <div>

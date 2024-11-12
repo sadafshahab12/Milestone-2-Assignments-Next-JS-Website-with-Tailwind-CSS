@@ -6,7 +6,9 @@ const Testimonial = () => {
     <section className="bg-orange-500">
       <div className="md:p-10 p-5">
         <div className="testimonial sm:mb-10 mb-5">
-          <h1 className="xs:text-[2.5rem] text-[2rem] text-center font-bold">Testimonials</h1>
+          <h1 className="xs:text-[2.5rem] text-[2rem] text-center font-bold">
+            Testimonials
+          </h1>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-4 md:gap-5 lg:gap-8">
           <div>
