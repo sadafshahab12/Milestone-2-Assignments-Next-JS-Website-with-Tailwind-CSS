@@ -5,7 +5,7 @@ import Navbar from "@/app/components/Navbar";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
-  weight: ["400" , "800"],
+  weight: ["400" , "700"],
   style: ["normal"],
   subsets: ["latin"],
 });
