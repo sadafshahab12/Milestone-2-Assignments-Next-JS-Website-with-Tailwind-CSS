@@ -32,7 +32,7 @@ const FAQTag = ({ faqQuestion, faqAnswer }: TFaqCard) => {
                   width={15}
                   height={15}
                   className={`${toggle ? "rotate-180" : "rotate-0"
-                    } transition-transform duration-500`}
+                    } transition-transform duration-500 `}
                 />
               </p>
             </div>

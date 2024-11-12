@@ -25,7 +25,7 @@ const Navbar = ({ logo, page1, page2, page3, page4, registerBtn }: TNavbar) => {
   }
   return (
     <>
-      <header className="bg-slate-800 relative navbar flex h-[4rem] justify-between items-center py-3 xs:px-14 px-5 shadow-md">
+      <header className="bg-slate-800 sticky top-0 left-0 w-[100%] navbar flex h-[4rem] justify-between items-center py-3 xs:px-14 px-5 shadow-md z-[100]">
         <div className="logo font-bold xs:text-[1.5rem] text-[1.2rem] text-primary">
           <Link href="/">
             <h1 className="cursor-pointer">{logo}</h1>
@@ -76,7 +76,7 @@ const Navbar = ({ logo, page1, page2, page3, page4, registerBtn }: TNavbar) => {
       </header>
 
       <nav
-        className={`mob-navlinks absolute top-[3.5rem] left-${left} w-full bg-slate-800 text-[1rem] text-gray-300 block md:hidden sm:pl-14 pl-7 py-7 sm:space-y-8 space-y-4 h-screen transition-all duration-700 ease-in-out`}
+        className={`mob-navlinks fixed top-[3.5rem] left-${left} w-full bg-slate-800 text-[1rem] text-gray-300 block md:hidden sm:pl-14 pl-7 py-7 sm:space-y-8 space-y-4 h-screen transition-all duration-700 ease-in-out z-[100]`}
         style={{
           left: left, // Dynamically set 'left' to control the slide in/out
           opacity: left === "0%" ? 1 : 0, // Add fade effect
